@@ -1,0 +1,31 @@
+^(\[w[0-9]+\] out: )$
+The system is going down for system halt NOW!
+Broadcast message from
+Failure reason WRONG for Player ID
+Undefined offset:
+ERROR: RecordNotFoundException:guild_work_event_section_guild_status not found with specific id
+purchase_finished
+Undefined variable
+Trying to get property of non-object on
+ERROR: NotAvailableException:no encounter unit found
+RecordNotFoundException:guild_work_event_section_player_status duplicate entry
+subStoryExtra/ranking WARNING: exception
+Stack trace
+INFO: [GW matching] opponent_guild_not_found section_id
+ERROR: NotAvailableException:invalid asking unit state on
+Andoughnut
+rival is not normal role
+Failure reason EXPIRED for Player ID
+tutorialSend ERROR: WorkerAlreadyDispatchedException
+UnitEvolutionOverFlowException:unit can not evolve
+player/login
+transfer/execute
+ranking/guildWeekly WARNING: exception
+Signature
+com.klab.sp
+tail
+receipt
+ranking/guildWeekly
+Executing task
+RecordNotFoundException:item not found on
+
