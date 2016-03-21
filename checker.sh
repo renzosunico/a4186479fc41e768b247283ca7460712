@@ -51,7 +51,7 @@
             fi
 
             if [ "$content_category" == "guild_item" ]; then
-                displayGuildItem "$content_id" "$content_category";
+                displayGuildItem "$content_id" "$content_amount";
                 if [ -n "$(echo "$incentive_name" | grep -i "stage")" ]; then
                     echo "$content_id" >> /tmp/guild_item.list
                 fi
@@ -623,7 +623,7 @@ displayElevenStar "$loop_quest_id";
 
                 pauseWait;
 
-                displayStartDash;
+		displayStartDash "$loop_quest_id";
 
                 pauseWait;
 
@@ -645,7 +645,7 @@ displayElevenStar "$loop_quest_id";
                 #[RANK REWARDS]
                 echo -e "[*~*~*~*~*~*~ EXCHANGE REWARDS ~*~*~*~*~*~*~*]";
 
-                displayExchange;
+		displayExchange "$loop_quest_id";
 
                 pauseWait;
 
